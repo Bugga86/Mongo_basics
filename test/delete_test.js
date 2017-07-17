@@ -1,6 +1,7 @@
 const assert = require('assert');
 const User = require('../src/user');
 
+/*
 describe('Deleting a User',() => {
 
  beforeEach((done) => {
@@ -43,4 +44,4 @@ describe('Deleting a User',() => {
       done();
     })
   })
-});
+}); */

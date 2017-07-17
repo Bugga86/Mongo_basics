@@ -4,7 +4,7 @@ const PostSchema = require('./post');
 const UserSchema = new Schema({
 name: {
 type: String,
-required: [true,'Name is required.']
+message: [true,'Name is required.']
 },
 postCount: Number,
 posts : [PostSchema]
